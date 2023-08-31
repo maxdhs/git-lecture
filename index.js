@@ -34,5 +34,20 @@ console.log(isOdd(14));
 // collaboration
 // github - remote storage for our repos (saved code)
 
+// theres some files we don't want to add: node_modules (too big and unneeded), passwords (.env file)
+
+// how can we tell git to ignore certain files and folders
+// create a .gitignore file
+
 // how do we use git?
-// 1.
+// 1. git init (initializes the folder to be tracked by git and creates some hidden git files that we don't care about)
+// 2. make a commit , how?
+// we have to git add . first
+// git commit -m "some message"
+
+// how do we use github to create a new repo
+// plus icon new repo
+// choose a name click private and create repo
+// how does our local git know about the github repo
+// git remote add origin <link>
+// git push origin master
